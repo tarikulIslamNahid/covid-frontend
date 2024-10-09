@@ -1,7 +1,5 @@
 import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
-  build: {
-    transpile: ['vuetify'],
-  },
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss'],
 })

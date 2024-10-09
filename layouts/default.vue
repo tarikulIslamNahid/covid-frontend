@@ -1,9 +1,11 @@
-<script setup>
- 
+<script setup >
 </script>
 
 <template>
-    <div>
-        <NuxtPage />
-    </div>
+<div>
+   <Header/>
+    <NuxtPage />
+    <Footer/>
+
+</div>
 </template>
