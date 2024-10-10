@@ -8,16 +8,11 @@
               >
               <img src="@/assets/images/logo.png" alt="" width="140px" >
           </nuxt-link>
-            <div
-              class="inline-block cursor-pointer md:hidden">
-              <div class="bg-gray-400 w-8 mb-2" style="height: 2px;"></div>
-              <div class="bg-gray-400 w-8 mb-2" style="height: 2px;"></div>
-              <div class="bg-gray-400 w-8" style="height: 2px;"></div>
-            </div>
+           
           </div>
           
           <div>
-            <div class="hidden md:block">
+            <div class="block">
               <nuxt-link
                 to="/"
                 class="inline-block py-1 md:py-4 text-slate-800 mr-6 font-bold"
