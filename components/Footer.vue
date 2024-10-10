@@ -2,7 +2,9 @@
  const year = ref(new Date().getFullYear());
 </script>
 <template>
+  <div>
     <p class="text-center p-4 text-gray-700 pt-10">
-        <div>© {{year}} Surokkha. All rights reserved.</div>
-  </p>
+      © {{year}} Surokkha. All rights reserved. 
+    </p>
+  </div>
 </template>
